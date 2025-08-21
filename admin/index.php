@@ -195,7 +195,7 @@ unset($_SESSION['success'], $_SESSION['error']);
                             <div class="bg-primary p-3 rounded text-center">
                                 <div class="stat-icon"><i class="fas fa-book"></i></div>
                                 <div class="fs-4 fw-bold"><?php echo $courseCount ?? 0; ?></div>
-                                <div class="small">Courses</div>
+                                <div class="small">Schedules</div>
                             </div>
                         </div>
                         <div class="col-6">
@@ -214,26 +214,26 @@ unset($_SESSION['success'], $_SESSION['error']);
                     </a>
                     
                     <a class="nav-link" href="#" onclick="toggleDropdown('courseDropdown')">
-                        <i class="fas fa-book"></i> Courses <i class="fas fa-chevron-down float-end"></i>
+                        <i class="fas fa-book"></i> Schedules <i class="fas fa-chevron-down float-end"></i>
                     </a>
                     <div id="courseDropdown" class="dropdown-content">
                         <a class="nav-link" href="#" onclick="showSection('addCourse')">
-                            <i class="fas fa-plus"></i> Add Course
+                            <i class="fas fa-plus"></i> Add Schedu;e
                         </a>
                         <a class="nav-link" href="#" onclick="showSection('courseList')">
-                            <i class="fas fa-list"></i> Course List
+                            <i class="fas fa-list"></i> Schedule List
                         </a>
                     </div>
                     
                     <a class="nav-link" href="#" onclick="toggleDropdown('planDropdown')">
-                        <i class="fas fa-file-alt"></i> Plans <i class="fas fa-chevron-down float-end"></i>
+                        <i class="fas fa-file-alt"></i> Plans with course name <i class="fas fa-chevron-down float-end"></i>
                     </a>
                     <div id="planDropdown" class="dropdown-content">
                         <a class="nav-link" href="#" onclick="showSection('addPlan')">
-                            <i class="fas fa-plus"></i> Add Plan
+                            <i class="fas fa-plus"></i> Add Plans with course name 
                         </a>
                         <a class="nav-link" href="#" onclick="showSection('planList')">
-                            <i class="fas fa-list"></i> Plan List
+                            <i class="fas fa-list"></i> Plans with course name  list
                         </a>
                     </div>
                 </nav>
@@ -691,4 +691,5 @@ unset($_SESSION['success'], $_SESSION['error']);
         });
     </script>
 </body>
+
 </html>
