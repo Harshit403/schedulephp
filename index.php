@@ -256,7 +256,7 @@ try {
                 </div>
                 
                 <p class="text-muted mb-4" style="font-size: 0.9rem;">
-                    The given <?php echo htmlspecialchars($course['course_name']); ?> Test Series Schedule is flexible for DECEMBER 25 Exams and you can attempt Test Series anytime before 20th December in case you don't want to follow the scheduled Test Series.
+                    This <?php echo htmlspecialchars($course['course_name']); ?> But you may complete the tests at your convenience but atlest one week before exams, regardless of the recommended date & sequence.
                 </p>
                 
                 <div class="row g-4">
@@ -328,4 +328,5 @@ try {
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
