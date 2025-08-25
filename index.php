@@ -286,7 +286,7 @@ try {
                                     </p>
                                     
                                     <div class="btn-group">
-                                        <button class="btn btn-buy">Buy Now</button>
+                                       <a href="https://missioncstestseries.com/buy"> <button class="btn btn-buy">Buy Now</button></a>
                                         <?php if($plan['pdf_file']): ?>
                                             <a href="uploads/<?php echo htmlspecialchars($plan['pdf_file']); ?>" 
                                                class="btn btn-download" 
@@ -330,3 +330,4 @@ try {
 </body>
 
 </html>
+
